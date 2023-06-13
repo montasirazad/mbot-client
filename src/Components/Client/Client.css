@@ -1,0 +1,10 @@
+.client-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.client-div img {
+    width: 300px;
+    height: 100px;
+}

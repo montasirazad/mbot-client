@@ -1,0 +1,48 @@
+.banner-div {
+    padding-top: 100px;
+    /* position: absolute; */
+    /* border-top: 1px solid red; */
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+    position: relative;
+    /* background-color: #e0ffff; */
+    /* background: rgb(255, 255, 255);
+    background: linear-gradient(90deg, rgba(255, 255, 255, 1) 31%, #e0ffff 41%); */
+    background: rgb(255, 255, 255);
+    background: linear-gradient(63deg, rgba(255, 255, 255, 1) 13%, rgba(181, 245, 245, 1) 38%);
+
+}
+
+
+
+.text-div h1 {
+    font-size: 80px;
+    color: darkslategray;
+    /* color: black; */
+    /* -webkit-text-fill-color: white; */
+    /* Will override color (regardless of order) */
+    /* -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: darkslategray; */
+}
+
+.text-div button {
+
+    color: white;
+    background-color: darkslategray;
+    border: 1px solid white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 40px;
+    padding-left: 40px;
+}
+
+.text-div button:hover {
+    background-color: white;
+    color: darkslategray;
+    border: 1px solid darkslategray;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 40px;
+    padding-left: 40px;
+    cursor: pointer;
+}
