@@ -1,47 +1,41 @@
-import React, { useState } from 'react';
+import React from 'react';
 import './Navbar.css';
-import { Link } from 'react-router-dom';
-import { BiMenu, BiMenuAltRight, BiArrowBack } from "react-icons/bi";
-import { FaDiceSix } from "react-icons/fa";
+import MenuIcon from '@mui/icons-material/Menu';
+import ClearIcon from '@mui/icons-material/Clear';
+import { useRef } from 'react';
+
 
 const NavBar = () => {
 
-    const [toggle, setToggle] = useState(false);
-    //console.log(toggle);
+    const navRef = useRef();
+
+    const showNavBar = () => {
+        navRef.current.classList.toggle('responsive_nav')
+    };
+
     return (
-
-        <nav>
-            <div className='menu-icon'>
-                <FaDiceSix onClick={() => setToggle(!toggle)} />
+        <div>
+            <div className='nav-text-div'>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <button>Learn more</button>
             </div>
-            <div className='logo-div'>
+            <header>
+                <h3>logo</h3>
+                <nav ref={navRef}>
+                    <a href="/#">Home</a>
+                    <a href="/#">My Work</a>
+                    <a href="/#">Blog</a>
+                    <a href="/#">About me</a>
+                    <button className='nav-btn nav-close-btn' onClick={showNavBar}>
+                        <ClearIcon />
+                    </button>
+                </nav>
 
-                <h1>LOGO</h1>
-            </div>
-
-
-            <div className='menu-div'>
-
-                <Link to="/">MENU-1</Link>
-                <Link to="/">MENU-3</Link>
-                <Link to="/">MENU-2</Link>
-                <Link to="/login">Log in</Link>
-            </div>
-
-
-            {
-                toggle && <div className='mobile-menu-link'>
-
-                    <Link to="/">MENU-1</Link>
-                    <Link to="/">MENU-3</Link>
-                    <Link to="/">MENU-2</Link>
-                    <Link to="/">MENU-4</Link>
-
-                </div>
-            }
-
-        </nav>
-
+                <button onClick={showNavBar} className='nav-btn'>
+                    <MenuIcon />
+                </button>
+            </header>
+        </div>
     );
 };
 

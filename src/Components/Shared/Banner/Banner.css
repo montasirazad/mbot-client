@@ -1,6 +1,7 @@
 .banner-div {
-    padding-top: 100px;
-    /* position: absolute; */
+    padding-top: 80px;
+    /* position: absolute;
+    z-index: -1; */
     /* border-top: 1px solid red; */
     display: grid;
     grid-template-columns: repeat(2, 50%);
@@ -13,10 +14,14 @@
 
 }
 
-
+.btn-div {
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+}
 
 .text-div h1 {
-    font-size: 80px;
+    font-size: 50px;
     color: darkslategray;
     /* color: black; */
     /* -webkit-text-fill-color: white; */
@@ -25,7 +30,7 @@
     -webkit-text-stroke-color: darkslategray; */
 }
 
-.text-div button {
+.btn-div button {
 
     color: white;
     background-color: darkslategray;
@@ -34,15 +39,77 @@
     padding-bottom: 20px;
     padding-right: 40px;
     padding-left: 40px;
+    margin: 15px;
+    border-radius: 30px;
+    font-size: 20px;
+
 }
 
-.text-div button:hover {
+.btn-div button:hover {
     background-color: white;
     color: darkslategray;
     border: 1px solid darkslategray;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    padding-right: 40px;
-    padding-left: 40px;
     cursor: pointer;
+}
+
+
+@media only screen and (max-width:1024px) {
+
+    .banner-div {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        /* width: 100vw; */
+
+    }
+
+    .btn-div {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .banner-img {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .banner-img img {
+
+        width: 60%;
+
+    }
+
+    .text-div {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .text-div h1 {
+        font-size: 20px;
+        color: darkslategray;
+        /* color: black; */
+        /* -webkit-text-fill-color: white; */
+        /* Will override color (regardless of order) */
+        /* -webkit-text-stroke-width: 1px;
+        -webkit-text-stroke-color: darkslategray; */
+    }
+
+    .btn-div button {
+        color: white;
+        background-color: darkslategray;
+        border: 1px solid white;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-right: 30px;
+        padding-left: 30px;
+        margin: 15px;
+        border-radius: 30px;
+        font-size: 15px;
+
+    }
+
+   
 }

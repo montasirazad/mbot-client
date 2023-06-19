@@ -23,7 +23,7 @@ const Client = () => {
 
     return (
         <>
-            <h1>clients</h1>
+            {/* <h1>clients</h1> */}
             <div className='client-container'>
 
                 {

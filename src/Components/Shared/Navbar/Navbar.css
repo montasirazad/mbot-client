@@ -1,103 +1,125 @@
-nav {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    height: 90px;
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --mainColor: white;
+    --mainColorLight: #5767aa;
+    --secondaryColor: #DB2B39;
+    --textColor: darkslategray;
+
+}
+
+.nav-text-div {
+    display: flex;
+    justify-content: center;
     align-items: center;
     background-color: darkslategray;
     color: white;
-    /* position: sticky; */
-    /* z-index: -1;
-    top: 0; */
-    width: 100%;
-    /* padding: 15px; */
-    /* background-color: #f7f41b; */
+    line-height: 70px;
+}
+
+.nav-text-div button {
+    margin-left: 10px;
+    width: 150px;
+    height: 35px;
+    background-color: darkslategray;
+    color: white;
+    border: 1px solid white;
+    border-radius: 30px;
 
 
 }
 
-.menu-icon {
-    display: none;
+.nav-text-div button:hover {
+
+    background-color: white;
+    color: darkslategray;
+    cursor: pointer;
+
+
 }
 
-.logo-div {
-    /* padding: 15px; */
-    display: flex;
-    padding-left: 30px;
-}
-
-.menu-div {
+header {
     display: flex;
     align-items: center;
-
+    justify-content: space-between;
+    height: 80px;
+    padding: 0 2rem;
+    background-color: var(--mainColor);
+    color: var(--textColor);
+    
 }
 
-.menu-div a {
-    margin-right: 30px;
+nav a {
+    margin: 0 2rem;
+    color: var(--textColor);
     text-decoration: none;
-    color: white;
 }
 
-.menu-div a:hover {
-    background-color: white;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-left: 15px;
-    padding-right: 15px;
-    color: darkslategray;
-
-
-
+nav a:hover {
+    color: var(--secondaryColor);
 }
 
-.mobile-menu-link {
-    display: none;
+header .nav-btn {
+    padding: 5px;
+    cursor: pointer;
+    background: transparent;
+    border: none;
+    outline: none;
+    color: var(--textColor);
+    visibility: hidden;
+    opacity: 0;
+    font-size: 1.8rem;
 }
 
-.menu-container{
-    display:flex;
-}
-@media only screen and (max-width: 768px) {
 
-    nav {
-        display: grid;
-        grid-template-columns: auto;
+@media only screen and (max-width:1024px) {
 
+    .nav-text-div {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        font-size: 12px;
+        padding: 10px;
     }
 
-    .menu-div {
-        display: none;
+    header .nav-btn {
+        visibility: visible;
+        opacity: 1;
     }
 
-    .menu-icon {
-        display: block;
-        color: yellowgreen;
-        font-size: 50px;
+    header nav {
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: 1.5rem;
+        background-color: var(--mainColor);
+        transition: .5s;
+        transform: translateY(-100vh);
+        z-index: 1;
     }
 
-    .mobile-menu-link {
-        display: block;
-        background-color: darkslategray;
-        padding: 15px;
-        
-
+    header .responsive_nav {
+        transform: none;
     }
 
-    .mobile-menu-link a {
-
-        display: grid;
-        text-align: center;
-        color: white;
-        text-decoration: none;
-        /* margin-left: 50px;
-        margin-top: 50px;
-        margin-bottom: 50px; */
-        margin: 50px;
-        line-height: 50px;
+    nav .nav-close-btn {
+        position: absolute;
+        top: 2rem;
+        right: 2rem;
     }
 
-    .mobile-menu-link a:hover {
-        background-color: white;
-        border-radius: 8px;
-        color: darkslategray;
+    nav a {
+        font-size: 1.5rem;
     }
 }

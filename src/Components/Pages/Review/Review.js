@@ -45,12 +45,12 @@ const Review = () => {
     return (
 
         <>
-            <h1>Review</h1><br />
+            {/* <h1>Review</h1><br /> */}
             <div className='review-div'>
 
                 {
 
-                    reviews.map(review => <Card sx={{ maxWidth: 345, m: 2 }}>
+                    reviews.map(review => <Card key={review.id} sx={{ maxWidth: 345, m: 2 }}>
                         <CardMedia
                             sx={{ height: 140 }}
                             image={review.img}

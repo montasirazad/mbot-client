@@ -40,7 +40,7 @@ const Services = () => {
     ]
 
     return (
-        <div>
+        <div >
 
             <Swiper
                 effect={"coverflow"}
