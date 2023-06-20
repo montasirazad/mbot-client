@@ -1,16 +1,12 @@
 .banner-div {
-    padding-top: 30px;
-    /* position: absolute;
-    z-index: -1; */
-    /* border-top: 1px solid red; */
-    display: grid;
-    grid-template-columns: repeat(2, 50%);
+    padding-top: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
     position: relative;
-    /* background-color: #e0ffff; */
-    /* background: rgb(255, 255, 255);
-    background: linear-gradient(90deg, rgba(255, 255, 255, 1) 31%, #e0ffff 41%); */
     background: rgb(255, 255, 255);
-    background: linear-gradient(63deg, rgba(255, 255, 255, 1) 13%, rgba(181, 245, 245, 1) 38%);
+    background: linear-gradient(90deg, rgba(255, 255, 255, 1) 25%, rgba(158, 247, 224, 1) 50%, rgba(255, 255, 255, 1) 75%);
 
 }
 
@@ -111,5 +107,5 @@
 
     }
 
-   
+
 }

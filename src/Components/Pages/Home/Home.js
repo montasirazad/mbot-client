@@ -5,12 +5,14 @@ import Footer from '../../Shared/Footer/Footer';
 import './Home.css';
 import Review from '../Review/Review';
 import Client from '../../Client/Client';
+import Faq from '../Faq/Faq';
 
 const Home = () => {
     return (
         <div className='home-div'>
             <Banner />
             {/* <Services /> */}
+            <Faq />
             <Review />
             <Client />
             <Footer />
