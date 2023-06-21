@@ -1,5 +1,5 @@
 import React from 'react';
-import robotImg from '../../../images/robot2.png';
+
 import './Banner.css';
 import { AiFillGoogleCircle } from "react-icons/ai";
 

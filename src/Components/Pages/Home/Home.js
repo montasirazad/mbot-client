@@ -1,12 +1,10 @@
 import React from 'react';
-import Banner from '../../Shared/Banner/Banner';
-import Services from '../../Services/Services';
-import Footer from '../../Shared/Footer/Footer';
-import './Home.css';
-import Review from '../Review/Review';
 import Client from '../../Client/Client';
+import Banner from '../../Shared/Banner/Banner';
+import Footer from '../../Shared/Footer/Footer';
 import Faq from '../Faq/Faq';
-import LogoSlider from '../LogoSlider/LogoSlider';
+import './Home.css';
+import HowWillHelp from '../HowWillHelp/HowWillHelp';
 
 const Home = () => {
     return (
@@ -15,7 +13,7 @@ const Home = () => {
             {/* <Services /> */}
             <Faq />
             {/* <LogoSlider /> */}
-            <Review />
+            <HowWillHelp />
             <Client />
             <Footer />
         </div>

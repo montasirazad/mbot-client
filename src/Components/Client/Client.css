@@ -1,11 +1,19 @@
+
 .client-container {
+    text-align: center;
+    padding: 30px;
+    /* background-color: black; */
+    /* color: white; */
+}
+
+.logo-container {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
 }
 
 
-.client-div img {
-    width: 300px;
-    height: 100px;
+.logo-div img {
+    width: 80px;
+    
 }
