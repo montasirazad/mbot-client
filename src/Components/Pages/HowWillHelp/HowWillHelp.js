@@ -1,12 +1,13 @@
 import React from 'react';
 import './HowWillHelp.css';
-
+import geniePic from '../../../images/genie2.png'
 
 const HowWillHelp = () => {
     return (
         <div className='help-container'>
 
             <div className='title-div'>
+                <img src={geniePic} alt="" className='zoom-in-out-box'/>
                 <h3>
                     How will Nando unlock your creative potential?
                 </h3>

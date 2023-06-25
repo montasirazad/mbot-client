@@ -16,6 +16,9 @@
     margin-top: 50px;
 }
 
+.text-div{
+    text-align: center;
+}
 .text-div h1 {
     font-size: 50px;
     /* color: darkslategray; */
@@ -29,12 +32,16 @@
         0 0 92px #0fa,
         0 0 102px #0fa,
         0 0 151px #0fa;
-    /* color: black; */
-    /* -webkit-text-fill-color: white; */
-    /* Will override color (regardless of order) */
-    /* -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: darkslategray; */
+
 }
+
+
+
+.text-div h2{
+    font-size: 40px;
+    color: white;
+}
+
 
 .btn-div button {
 
@@ -101,6 +108,11 @@
         /* Will override color (regardless of order) */
         /* -webkit-text-stroke-width: 1px;
         -webkit-text-stroke-color: darkslategray; */
+    }
+
+    .text-div h2{
+        font-size: 20px;
+        color: white;
     }
 
     .btn-div button {

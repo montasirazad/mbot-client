@@ -16,7 +16,7 @@ import { Link } from 'react-router-dom';
 
 function Copyright(props) {
     return (
-        <Typography variant="body2" color="text.secondary" align="center" {...props}>
+        <Typography variant="body2" color="text.white" align="center" {...props}>
             {'Copyright © '}
             <Link color="inherit" href="https://mui.com/">
                 Your Website
@@ -45,16 +45,16 @@ const Contact = () => {
         <div className='contact-container'>
             <div className='contact-div'>
                 <Grid item xs={12} sm={4}>
-                    <Typography variant="h6" color="text.primary" gutterBottom>
+                    <Typography variant="h6" color="text.white" gutterBottom>
                         Contact Us
                     </Typography>
-                    <Typography variant="body2" color="text.secondary">
+                    <Typography variant="body2" color="text.white">
                         123 Main Street, Anytown, USA
                     </Typography>
-                    <Typography variant="body2" color="text.secondary">
+                    <Typography variant="body2" color="text.white">
                         Email: info@example.com
                     </Typography>
-                    <Typography variant="body2" color="text.secondary">
+                    <Typography variant="body2" color="text.white">
                         Phone: +1 234 567 8901
                     </Typography>
                 </Grid>
@@ -72,7 +72,7 @@ const Contact = () => {
                             }}
                         >
                             
-                            <Typography component="h1" variant="h5">
+                            <Typography component="h1" variant="h5" color="text.white">
                                 Log in
                             </Typography>
                             <Box component="form" onSubmit={handleSubmit} noValidate sx={{ mt: 1 }}>
@@ -95,6 +95,7 @@ const Contact = () => {
                                     type="password"
                                     id="password"
                                     autoComplete="current-password"
+                                    
                                 />
                                 {/* <FormControlLabel
                             control={<Checkbox value="remember" color="primary" />}
@@ -110,12 +111,12 @@ const Contact = () => {
                                 </Button>
                                 <Grid container>
                                     <Grid item xs>
-                                        <Link href="#" variant="body2">
+                                        <Link href="#" variant="body2" color="text.white">
                                             Forgot password?
                                         </Link>
                                     </Grid>
                                     <Grid item>
-                                        <Link to='/signup' variant="body2">
+                                        <Link to='/signup' variant="body2" color="text.white">
                                             Don't have an account? Sign Up
                                         </Link>
                                     </Grid>

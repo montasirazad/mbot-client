@@ -3,7 +3,7 @@ import './Navbar.css';
 import MenuIcon from '@mui/icons-material/Menu';
 import ClearIcon from '@mui/icons-material/Clear';
 import { useRef } from 'react';
-
+import genieLogo from '../../../images/genie_logo.svg'
 
 const NavBar = () => {
 
@@ -20,7 +20,7 @@ const NavBar = () => {
                 <button>Learn more</button>
             </div>
             <header>
-                <h3>logo</h3>
+                <img src={genieLogo} alt="" />
                 <nav ref={navRef}>
                     <a href="/#">Home</a>
                     <a href="/#">My Work</a>

@@ -1,7 +1,6 @@
 import React from 'react';
 
 import './Banner.css';
-import { AiFillGoogleCircle } from "react-icons/ai";
 
 
 const Banner = () => {
@@ -11,8 +10,8 @@ const Banner = () => {
                 <img src={robotImg} alt="" />
             </div> */}
             <div className='text-div'>
-                <h1>Whatever you want to ask,</h1>
-                <h1>our chat has the answers</h1>
+                <h1 className='glowing-text'>Whatever you want to ask</h1> <br />
+                <h2>our chat has the answers</h2>
 
 
             </div>

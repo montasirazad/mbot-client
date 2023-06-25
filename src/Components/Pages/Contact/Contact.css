@@ -1,12 +1,15 @@
 .contact-container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    /* padding-top: 50px; */
+    background-color: rgb(110, 112, 6);
 }
 
 .contact-div {
     display: flex;
     align-items: center;
     justify-content: center;
+    color: white
 }
 
 

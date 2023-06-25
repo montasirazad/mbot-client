@@ -1,7 +1,7 @@
 .help-container {
     display: grid;
     grid-template-columns: 30% 70%;
-    padding: 20px;
+    /* padding: 20px; */
     column-gap: 15px;
     background-color: #0C081E;
     color: white;
@@ -15,9 +15,7 @@
 .answer-container div {
     width: 400px;
     height: 250px;
-    /* border: 1px solid red; */
-    margin-right: 40px;
-    margin-bottom: 40px;
+    margin: 20px;
     padding: 30px;
     border-radius: 20px;
     color: white;
@@ -27,9 +25,21 @@
     /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #414345, #232526);
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
 
+.title-div {
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    flex-direction: column;
+    text-align: justify;
 
+}
 
+.title-div img {
+    width: 30%;
+    margin-bottom: 50px;
 
 }
 
@@ -38,6 +48,27 @@
 
 }
 
+.zoom-in-out-box {
+    /* margin: 24px;
+    width: 50px;
+    height: 50px; */
+
+    animation: zoom-in-zoom-out 4s ease infinite;
+}
+
+@keyframes zoom-in-zoom-out {
+    0% {
+        transform: scale(1, 1);
+    }
+
+    50% {
+        transform: scale(1.5, 1.5);
+    }
+
+    100% {
+        transform: scale(1, 1);
+    }
+}
 
 @media only screen and (max-width:750px) {
     .title-div {
@@ -46,35 +77,24 @@
     }
 
     .help-container {
-        display: flex;
-        flex-direction: column;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
         align-items: center;
         justify-content: center;
-
+        padding: 5px;
 
     }
 
-    .answer-container {
+    /* .answer-container {
 
         margin-top: 30px;
-        
-    }
+
+    } */
 
     .answer-container div {
         width: auto;
-        height: 250px;
-
-        /* padding: 10px; */
-        border-radius: 20px;
-        color: white;
-        background: #232526;
-        /* fallback for old browsers */
-        background: -webkit-linear-gradient(to right, #414345, #232526);
-        /* Chrome 10-25, Safari 5.1-6 */
-        background: linear-gradient(to right, #414345, #232526);
-        /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
-
+        height: auto;
+        text-align: justify;
 
 
     }
