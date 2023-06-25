@@ -16,7 +16,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: darkslategray;
+    background-color: #0C081E; /* main bg color */
     color: white;
     line-height: 70px;
 }
@@ -25,7 +25,7 @@
     margin-left: 10px;
     width: 150px;
     height: 35px;
-    background-color: darkslategray;
+    background-color: #0C081E;
     color: white;
     border: 1px solid white;
     border-radius: 30px;

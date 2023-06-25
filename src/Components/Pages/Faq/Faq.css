@@ -1,6 +1,15 @@
-h1 {
+.question-container h1 {
     /* text-align: center; */
-    color: darkslategray;
+    color: #fff;
+    text-shadow:
+        0 0 7px #fff,
+        0 0 10px #fff,
+        0 0 21px #fff,
+        0 0 42px #0fa,
+        0 0 82px #0fa,
+        0 0 92px #0fa,
+        0 0 102px #0fa,
+        0 0 151px #0fa;
 }
 
 .question-container {
@@ -11,10 +20,11 @@ h1 {
     justify-content: center;
     margin-top: 80px;
     margin-bottom: 80px;
-    
+
+
 }
 
-.question-div{
+.question-div {
     width: 90%;
     border: 1px solid #b2ebf2;
     border-radius: 25px;
