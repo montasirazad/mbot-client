@@ -38,7 +38,7 @@ const Client = () => {
 
     return (
         <div className='client-container'>
-            <h3>Nando.ai is designed for platforms such as</h3>
+            {/* <h3>Nando.ai is designed for platforms such as</h3> */}
             <div className='logo-container'>
 
                 {

@@ -6,7 +6,7 @@ const HowWillHelp = () => {
     return (
         <div className='help-container'>
 
-            <div>
+            <div className='title-div'>
                 <h3>
                     How will Nando unlock your creative potential?
                 </h3>
