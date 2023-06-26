@@ -13,13 +13,19 @@ const Faq = () => {
             <h1>Frequently asked questions</h1>
             <br />
             <div className='question-div'>
-                <Accordion sx={{ backgroundColor: '#b2ebf2', margin: '15px' }}>
+
+                <Accordion sx={{
+                    backgroundColor: '#053574',
+                    backgroundImage: `linear-gradient(to right,#053574, #09522d)`,
+                    color: 'white',
+                    margin: '15px'
+                }}>
                     <AccordionSummary
-                        expandIcon={<ExpandMoreIcon />}
+                        expandIcon={<ExpandMoreIcon sx={{ color: 'white' }} />}
                         aria-controls="panel1a-content"
                         id="panel1a-header"
                     >
-                        <Typography variant="h5" sx={{ color: 'black' }}>What is lorem ?</Typography>
+                        <Typography variant="h5" sx={{ color: 'white' }}>What is lorem ?</Typography>
                     </AccordionSummary>
                     <AccordionDetails>
                         <Typography variant="body2">
@@ -29,13 +35,75 @@ const Faq = () => {
                     </AccordionDetails>
                 </Accordion>
 
-                <Accordion sx={{ backgroundColor: '#b2ebf2', margin: '15px' }}>
+                <Accordion sx={{
+                    backgroundColor: '#053574',
+                    backgroundImage: `linear-gradient(to right,#053574, #09522d)`,
+                    color: 'white',
+                    margin: '15px'
+                }}>
                     <AccordionSummary
-                        expandIcon={<ExpandMoreIcon />}
+                        expandIcon={<ExpandMoreIcon sx={{ color: 'white' }} />}
                         aria-controls="panel1a-content"
                         id="panel1a-header"
                     >
-                        <Typography variant="h5" sx={{ color: 'black' }}>What is lorem ?</Typography>
+                        <Typography variant="h5" sx={{ color: 'white' }}>What is lorem ?</Typography>
+                    </AccordionSummary>
+                    <AccordionDetails>
+                        <Typography variant="body2">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
+                            malesuada lacus ex, sit amet blandit leo lobortis eget.
+                        </Typography>
+                    </AccordionDetails>
+                </Accordion> <Accordion sx={{
+                    backgroundColor: '#053574',
+                    backgroundImage: `linear-gradient(to right,#053574, #09522d)`,
+                    color: 'white',
+                    margin: '15px'
+                }}>
+                    <AccordionSummary
+                        expandIcon={<ExpandMoreIcon sx={{ color: 'white' }} />}
+                        aria-controls="panel1a-content"
+                        id="panel1a-header"
+                    >
+                        <Typography variant="h5" sx={{ color: 'white' }}>What is lorem ?</Typography>
+                    </AccordionSummary>
+                    <AccordionDetails>
+                        <Typography variant="body2">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
+                            malesuada lacus ex, sit amet blandit leo lobortis eget.
+                        </Typography>
+                    </AccordionDetails>
+                </Accordion> <Accordion sx={{
+                    backgroundColor: '#053574',
+                    backgroundImage: `linear-gradient(to right,#053574, #09522d)`,
+                    color: 'white',
+                    margin: '15px'
+                }}>
+                    <AccordionSummary
+                        expandIcon={<ExpandMoreIcon sx={{ color: 'white' }} />}
+                        aria-controls="panel1a-content"
+                        id="panel1a-header"
+                    >
+                        <Typography variant="h5" sx={{ color: 'white' }}>What is lorem ?</Typography>
+                    </AccordionSummary>
+                    <AccordionDetails>
+                        <Typography variant="body2">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
+                            malesuada lacus ex, sit amet blandit leo lobortis eget.
+                        </Typography>
+                    </AccordionDetails>
+                </Accordion> <Accordion sx={{
+                    backgroundColor: '#053574',
+                    backgroundImage: `linear-gradient(to right,#053574, #09522d)`,
+                    color: 'white',
+                    margin: '15px'
+                }}>
+                    <AccordionSummary
+                        expandIcon={<ExpandMoreIcon sx={{ color: 'white' }} />}
+                        aria-controls="panel1a-content"
+                        id="panel1a-header"
+                    >
+                        <Typography variant="h5" sx={{ color: 'white' }}>What is lorem ?</Typography>
                     </AccordionSummary>
                     <AccordionDetails>
                         <Typography variant="body2">
@@ -44,51 +112,7 @@ const Faq = () => {
                         </Typography>
                     </AccordionDetails>
                 </Accordion>
-                <Accordion sx={{ backgroundColor: '#b2ebf2', margin: '15px' }}>
-                    <AccordionSummary
-                        expandIcon={<ExpandMoreIcon />}
-                        aria-controls="panel1a-content"
-                        id="panel1a-header"
-                    >
-                        <Typography variant="h5" sx={{ color: 'black' }}>What is lorem ?</Typography>
-                    </AccordionSummary>
-                    <AccordionDetails>
-                        <Typography variant="body2">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-                            malesuada lacus ex, sit amet blandit leo lobortis eget.
-                        </Typography>
-                    </AccordionDetails>
-                </Accordion>
-                <Accordion sx={{ backgroundColor: '#b2ebf2', margin: '15px' }}>
-                    <AccordionSummary
-                        expandIcon={<ExpandMoreIcon />}
-                        aria-controls="panel1a-content"
-                        id="panel1a-header"
-                    >
-                        <Typography variant="h5" sx={{ color: 'black' }}>What is lorem ?</Typography>
-                    </AccordionSummary>
-                    <AccordionDetails>
-                        <Typography variant="body2">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-                            malesuada lacus ex, sit amet blandit leo lobortis eget.
-                        </Typography>
-                    </AccordionDetails>
-                </Accordion>
-                <Accordion sx={{ backgroundColor: '#b2ebf2', margin: '15px' }}>
-                    <AccordionSummary
-                        expandIcon={<ExpandMoreIcon />}
-                        aria-controls="panel1a-content"
-                        id="panel1a-header"
-                    >
-                        <Typography variant="h5" sx={{ color: 'black' }}>What is lorem ?</Typography>
-                    </AccordionSummary>
-                    <AccordionDetails>
-                        <Typography variant="body2">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-                            malesuada lacus ex, sit amet blandit leo lobortis eget.
-                        </Typography>
-                    </AccordionDetails>
-                </Accordion>
+
             </div>
         </div>
     );

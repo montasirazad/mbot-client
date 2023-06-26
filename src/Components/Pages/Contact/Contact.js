@@ -59,7 +59,7 @@ const Contact = () => {
                     </Typography>
                 </Grid>
             </div>
-            <div>
+            <div className='form-div'>
                 <ThemeProvider theme={defaultTheme} >
                     <Container component="main" maxWidth="xs">
                         <CssBaseline />
@@ -84,7 +84,7 @@ const Contact = () => {
                                     label="Email Address"
                                     name="email"
                                     autoComplete="email"
-                                    autoFocus
+                                    
                                 />
                                 <TextField
                                     margin="normal"

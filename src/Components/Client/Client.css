@@ -13,12 +13,11 @@
     margin-top: 40px;
 }
 
-/* .logo-div {
-    box-shadow: 0 0 10px 5px #48abe0,
-        0 0 20px 7px #ebecca,
-        0 0 25px 20px #8a2be2,
-        0 0 30px 25px #ff1493;
-} */
+.text-div h2 {
+    background: -webkit-linear-gradient(20deg, #053574, #049c50), cyan;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
 
 .logo-div img {
     width: 80px;

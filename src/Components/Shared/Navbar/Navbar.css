@@ -12,13 +12,18 @@
 
 }
 
+
+ 
+
 .nav-text-div {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #0C081E; /* main bg color */
+    background-color: #0C081E;
+    /* main bg color */
     color: white;
     line-height: 70px;
+    z-index: 1;
 }
 
 .nav-text-div button {
@@ -51,6 +56,7 @@ header {
     background-color: var(--mainColor);
     color: var(--textColor);
     
+
 }
 
 nav a {
@@ -78,6 +84,8 @@ header .nav-btn {
 
 @media only screen and (max-width:1024px) {
 
+   
+
     .nav-text-div {
         display: flex;
         justify-content: center;
@@ -102,6 +110,8 @@ header .nav-btn {
         align-items: center;
         justify-content: center;
         flex-direction: column;
+
+        /* padding-top: 200px; */
         gap: 1.5rem;
         background-color: var(--mainColor);
         transition: .5s;

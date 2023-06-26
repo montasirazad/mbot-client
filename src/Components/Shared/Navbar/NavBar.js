@@ -14,7 +14,7 @@ const NavBar = () => {
     };
 
     return (
-        <div>
+        <div className='nav-container'>
             <div className='nav-text-div'>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                 <button>Learn more</button>
