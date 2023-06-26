@@ -18,7 +18,7 @@ const Banner = () => {
             <div className='btn-div'>
                 <button>Sign up with Google</button>
                 <p>or</p>
-                <button>GET STARTED</button>
+                <button>Get started</button>
             </div>
         </div>
     );
