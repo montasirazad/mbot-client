@@ -1,3 +1,7 @@
+
+/* color:#0C081E */
+
+
 * {
     padding: 0;
     margin: 0;
@@ -5,10 +9,10 @@
 }
 
 :root {
-    --mainColor: white;
+    --mainColor: #0C081E;
     --mainColorLight: #5767aa;
     --secondaryColor: #DB2B39;
-    --textColor: darkslategray;
+    --textColor: white;
 
 }
 
@@ -55,6 +59,8 @@ header {
     padding: 0 2rem;
     background-color: var(--mainColor);
     color: var(--textColor);
+    border-top: 1px solid lightgrey;
+    border-bottom: 1px solid lightgrey;
     
 
 }

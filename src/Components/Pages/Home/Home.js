@@ -6,6 +6,7 @@ import Faq from '../Faq/Faq';
 import './Home.css';
 import HowWillHelp from '../HowWillHelp/HowWillHelp';
 import Contact from '../Contact/Contact';
+import Pricing from '../Pricing/Pricing';
 
 const Home = () => {
     return (
@@ -16,6 +17,7 @@ const Home = () => {
             {/* <LogoSlider /> */}
             <HowWillHelp />
             <Client />
+            <Pricing />
             <Contact />
             <Footer />
         </div>
