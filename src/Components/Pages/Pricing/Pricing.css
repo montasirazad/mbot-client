@@ -11,16 +11,58 @@
 }
 
 .pricing-container div {
-    width: 300px;
+    width: 400px;
     height: 600px;
-    /* border: 1px solid white; */
     color: white;
-    /* background: #0e1027; */
     border: 1px solid white;
-     padding-top: 60px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+    text-align: justify;
+
+}
+
+.pricing-container div span {
+    display: inline;
+    margin-left: 30px;
+}
+
+.pricing-container div button {
+    margin-top: 50px;
+    width: 60%;
+    height: 40px;
+    font-size: larger;
+    background-color: orangered;
+    color: white;
+    border: none;
+}
+
+.pricing-container div button:hover {
+
+    cursor: pointer;
+    background-color: crimson;
+    color: white;
+    border: none;
+}
+
+
+@media only screen and (max-width:1024px) {
+    .pricing-container {
+
+        display: grid;
+        grid-template-columns: repeat(1, auto);
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 50px;
 
 
 
-    text-align: center;
-    
+    }
+
+    .pricing-container div {
+        width: auto;
+        padding: 10px;
+
+    }
 }
