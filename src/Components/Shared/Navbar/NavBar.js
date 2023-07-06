@@ -4,6 +4,7 @@ import MenuIcon from '@mui/icons-material/Menu';
 import ClearIcon from '@mui/icons-material/Clear';
 import { useRef } from 'react';
 import genieLogo from '../../../images/genie_logo.svg'
+import { Link } from 'react-router-dom';
 
 const NavBar = () => {
 
@@ -26,6 +27,7 @@ const NavBar = () => {
                     <a href="/#">My Work</a>
                     <a href="/#">Blog</a>
                     <a href="/#">About me</a>
+                    <Link to='user/dashboard'>User dashboard</Link>
                     <button className='nav-btn nav-close-btn' onClick={showNavBar}>
                         <ClearIcon />
                     </button>

@@ -1,0 +1,38 @@
+.newPost-container {
+    display: grid;
+    grid-template-columns: repeat(1, 80%);
+    align-items: center;
+    justify-content: center;
+    border: 1px solid red;
+    padding: 10px;
+}
+
+form textarea {
+    width: 100%;
+    height: 200px;
+}
+
+
+form select {
+    width: 100%;
+    height: 30px;
+}
+
+form button {
+
+    width: 60%;
+    height: 40px;
+    font-size: larger;
+    background-color: orangered;
+    color: white;
+    border: none;
+}
+
+
+form button:hover {
+
+    cursor: pointer;
+    background-color: crimson;
+    color: white;
+    border: none;
+}
