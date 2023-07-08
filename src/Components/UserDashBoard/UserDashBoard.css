@@ -1,7 +1,8 @@
 .header-div {
     background-color: aqua;
-    text-align: center;
+    justify-content: center;
     padding: 20px;
+    display: flex;
 }
 
 .dashboard-container {
@@ -15,16 +16,14 @@
     z-index: 1;
     top: 0;
     left: 0;
-    /* background-color: #111; */
     overflow-x: hidden;
-    transition: .5s;
+    transition: .7s;
+    transform: translateX(-15vw);
     padding-top: 60px;
-    /* display: flex;
-    flex-direction: column; */
-
     width: 250px;
-
     background-color: yellowgreen;
+    /* visibility: hidden; */
+    /* display: none; */
 }
 
 .dashboard-links a {
@@ -34,10 +33,12 @@
 
 .dashboard-links .close-btn {
     position: absolute;
-    top: 0;
-    right: 25px;
-    font-size: 36px;
+    top: 15px;
+    right: 15px;
+    font-size: 30px;
     margin-left: 50px;
+    cursor: pointer;
+    color: white;
 }
 
 .dashboard-links a {
@@ -45,9 +46,14 @@
     text-decoration: none;
 }
 
-.menuHide {
+.menuShow {
+    /* margin-left: 250px; */
+   visibility: visible;
+    transition: .7s;
+    padding-left: 100px;
+    transform: translateX(0px);
+}
 
-
-    transition: .5s;
-    transform: translateX(-100vh);
+@media only screen and (max-width:1024px) {
+    
 }

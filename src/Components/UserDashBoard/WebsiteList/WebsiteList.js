@@ -1,8 +1,11 @@
 import React from 'react';
+import './WebsiteList.css';
+
 
 const WebsiteList = () => {
+
     return (
-        <div>
+        <div className='website-list-container'>
             <h1>Website list</h1>
         </div>
     );
