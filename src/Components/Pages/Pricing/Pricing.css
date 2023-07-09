@@ -1,3 +1,12 @@
+:root {
+    --font-color: white;
+    --border-color: white;
+    --button-color: orangered;
+    --button-hover-color: crimson;
+}
+
+
+
 .pricing-container {
 
     display: grid;
@@ -14,7 +23,7 @@
 .pricing-container div {
     width: 400px;
     height: 600px;
-    color: white;
+    color: var(--font-color);
     border: 1px solid white;
     display: flex;
     align-items: center;
@@ -34,36 +43,31 @@
     width: 60%;
     height: 40px;
     font-size: larger;
-    background-color: orangered;
-    color: white;
+    background-color: var(--button-color);
+    color: var(--font-color);
     border: none;
 }
 
 .pricing-container div button:hover {
-
     cursor: pointer;
-    background-color: crimson;
-    color: white;
+    background-color: var(--button-hover-color);
+    color: var(--font-color);
     border: none;
 }
 
 
 @media only screen and (max-width:1024px) {
-    .pricing-container {
 
+    .pricing-container {
         display: grid;
         grid-template-columns: repeat(1, auto);
         align-items: center;
         justify-content: center;
         margin-bottom: 50px;
-
-
-
     }
 
     .pricing-container div {
         width: auto;
         padding: 10px;
-
     }
 }

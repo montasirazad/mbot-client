@@ -8,10 +8,10 @@
 .header-div {
     background-color: var(--mainColor);
     color: var(--textColor);
-    align-items: center;
-    justify-content: space-between;
-    padding: 20px;
     display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 20px;
     height: 100px;
 }
 
@@ -30,7 +30,7 @@
     height: 100%;
     position: fixed;
     z-index: 1;
-    top: 100px;
+    top: 0;
     left: 0;
     overflow-x: hidden;
     transition: .7s;
@@ -38,10 +38,6 @@
     padding-top: 60px;
     width: 250px;
     background-color: var(--mainColor);
-    text-align: center;
-    /* text-align: justify; */
-
-
 }
 
 .dashboard-links a {
@@ -49,8 +45,9 @@
     text-decoration: none;
     color: var(--textColor);
     font-size: 20px;
-    /* margin-left: 25px;
-    margin-bottom: 15px; */
+    text-align: left;
+    margin-left: 25px;
+    margin-bottom: 15px;
 }
 
 .dashboard-links a:hover {
@@ -77,10 +74,7 @@
     color: white;
 }
 
-.dashboard-links a {
-    margin: 10px;
-    text-decoration: none;
-}
+
 
 .menuShow {
 
