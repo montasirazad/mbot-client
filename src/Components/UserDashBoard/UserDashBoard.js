@@ -1,8 +1,6 @@
 import React, { useRef } from 'react';
-import './UserDashBoard.css';
 import { Link, NavLink, Outlet } from 'react-router-dom';
-import NavBar from '../Shared/Navbar/NavBar';
-import Footer from '../Shared/Footer/Footer';
+import './UserDashBoard.css';
 
 const UserDashBoard = () => {
 
@@ -15,21 +13,26 @@ const UserDashBoard = () => {
     return (
         <div>
             <div className='header-div'>
-                <Link to='/'>Home</Link>
+                <span onClick={handleMenuButton} className='open-btn'>
+                    &#9776;
+                </span>
+
+                
                 <h2>Gengenie</h2>
-                {/* <span onClick={handleMenuButton} style={{ fontSize: '30px', cursor: 'pointer' }}>&#9776;</span> */}
+
             </div>
-            {/* <NavBar /> */}
+
             <div className="dashboard-container">
 
                 <div className='dashboard-links' ref={menuRef}>
 
                     <span onClick={handleMenuButton}
                         className='close-btn'>
-                        {/* &times; */}
-                        &#9776;
+                        &times;
+                        
                     </span>
 
+                    <NavLink to='/'>Home</NavLink>
                     <NavLink to='/user/dashboard'>New Post  +</NavLink>
                     <NavLink to='/user/dashboard/website-list'>website list</NavLink>
                     <NavLink to='/'>Option 3</NavLink>
