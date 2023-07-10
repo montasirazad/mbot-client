@@ -10,8 +10,8 @@ const Banner = () => {
                 <img src={robotImg} alt="" />
             </div> */}
             <div className='text-div'>
-                <h1 className='glowing-text'>Whatever you want to ask</h1> <br />
-                <h2>our chat has the answers</h2>
+                <h1 className='glowing-text'>Genie-Driven Text Solutions</h1> <br />
+                <h2>Where Your Text-Based Content Wishes Come True!</h2>
 
 
             </div>

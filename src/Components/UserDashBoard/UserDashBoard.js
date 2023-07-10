@@ -17,10 +17,14 @@ const UserDashBoard = () => {
                     &#9776;
                 </span>
 
-                
-                <h2>Gengenie</h2>
 
+                <h2>Gengenie</h2>
+                <div>
+                    <p>hi, ....</p>
+                </div>
             </div>
+
+
 
             <div className="dashboard-container">
 
@@ -29,7 +33,7 @@ const UserDashBoard = () => {
                     <span onClick={handleMenuButton}
                         className='close-btn'>
                         &times;
-                        
+
                     </span>
 
                     <NavLink to='/'>Home</NavLink>

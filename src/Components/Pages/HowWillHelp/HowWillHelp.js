@@ -19,15 +19,11 @@ const HowWillHelp = () => {
             <div className='title-div'>
                 <img src={geniePic} alt="" className='zoom-in-out-box' />
                 <h3>
-                    How will Nando unlock your creative potential?
+                    How will Gen Genie boost your creative potential?
                 </h3>
                 <br />
                 <p>
-                    Nando.ai is an AI-based platform that streamlines
-                    copywriting for entrepreneurs and boosts sales with
-                    compelling, high-converting copy. Nando.ai also integrates
-                    product descriptions, ad texts, and video scripts
-                    in one place, making it a cost-effective solution.
+                    Gen Genie is a software powered by AI that automates copywriting for entrepreneurs, bloggers, corporate employees and small business owners. It creates appealing and high-converting text to increase sales. Gen Genie is cost-effective because it combines info articles, social media posts, product descriptions, cold email, ad texts, and video scripts into a single platform. We are adding 10+ new prompt templates each month.
                 </p>
             </div>
 
@@ -42,7 +38,11 @@ const HowWillHelp = () => {
                     </span>
 
                     <br />
-                    <p>Nando.ai can save entrepreneurs, YouTube channel owners and sellers on marketplaces like amazon a lot of time by automating the copywriting process. This can be highlighted as a key benefit in marketing the tool.</p>
+                    <p>
+                        Entrepreneurs, YouTube channel owners, and Amazon merchants can now enjoy more free time
+                        thanks to Genie's automated authoring process. This efficient tool is guaranteed to
+                        significantly reduce the amount of time you spend on writing tasks every day.
+                    </p>
                 </div>
 
                 <div>
@@ -51,7 +51,10 @@ const HowWillHelp = () => {
                         <h5>Cost-effective</h5>
                     </span>
                     <br />
-                    <p>Nando.ai can be marketed as a cost-effective solution for creating professional, high-converting copy, as it eliminates the need for expensive agency fees.</p>
+                    <p>
+                        By using Genie's automated authoring process, businesses can save money on costly agency
+                        fees while still producing top-quality, high-converting copy.
+                    </p>
                 </div>
 
                 <div>
@@ -60,19 +63,25 @@ const HowWillHelp = () => {
                         <h5>AI-powered</h5>
                     </span>
                     <br />
-                    <p>The tool's AI-powered capabilities can be highlighted as a unique selling point, as it can generate copy that is tailored to the user's specific needs and audience.</p>
+                    <p>
+                        Highlighting the AI-powered capabilities of the tool can be a powerful selling point,
+                        as it has the ability to generate personalized copy that
+                        caters to the unique needs and preferences of the user's target audience.
+                    </p>
                 </div>
 
 
-                <div>
+                {/* <div>
                     <span>
                         <img src={salesImg} alt="" />
                         <h5>Increase in sales</h5>
                     </span>
                     <br />
 
-                    <p>Nando.ai can be marketed as a tool that can help increase sales by creating compelling and high-converting copy. This can be highlighted through testimonials and case studies from satisfied users.</p>
-                </div>
+                    <p>Nando.ai can be marketed as a tool that can help increase sales by
+                        creating compelling and high-converting copy.
+                        This can be highlighted through testimonials and case studies from satisfied users.</p>
+                </div> */}
 
                 <div>
                     <span>
@@ -93,18 +102,24 @@ const HowWillHelp = () => {
                     </span>
                     <br />
 
-                    <p>Nando.ai can be marketed as a tool that allows users to customize their copy to suit their specific needs and preferences.</p>
+                    <p>
+                        With Genie, users can create tailored copy to enhance their communication
+                        and messaging strategies. The platform offers various customizable features
+                        that are perfect for optimizing content requirements.
+                    </p>
                 </div>
 
-                <div>
+                {/* <div>
                     <span>
                         <img src={expertiseImg} alt="" />
                         <h5>Expertise</h5>
                     </span>
                     <br />
 
-                    <p>Nando.ai can be marketed as a tool that provides users with access to the expertise of professional copywriters, even if they don’t have any copywriting experience.</p>
-                </div>
+                    <p>Nando.ai can be marketed as a tool that provides users with access to the
+                        expertise of professional copywriters, even if they don’t
+                        have any copywriting experience.</p>
+                </div> */}
 
                 <div>
                     <span>
@@ -112,7 +127,10 @@ const HowWillHelp = () => {
                         <h5>All-in-one solution</h5>
                     </span>
                     <br />
-                    <p>Nando.ai can be marketed as an all-in-one solution for creating product descriptions, ad texts, and video scripts, which can help streamline the marketing process.</p>
+                    <p>
+                        gengenie.io is the all-in-one solution for creating quality content.
+                        We cover it all, whether it is a blog, marketing email, sales memo, or business proposal.
+                    </p>
                 </div>
             </div>
 

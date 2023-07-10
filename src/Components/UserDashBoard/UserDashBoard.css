@@ -10,8 +10,9 @@
     color: var(--textColor);
     display: flex;
     align-items: center;
-    justify-content: flex-start;
+    justify-content: space-between;
     padding: 20px;
+    width: 100vw;
     height: 100px;
 }
 
@@ -63,8 +64,8 @@
     font-size: 30px;
     cursor: pointer;
     color: white;
-   
-    
+
+
 
 }
 
@@ -94,4 +95,11 @@
 
 }
 
-@media only screen and (max-width:1024px) {}
+@media only screen and (max-width:1024px) {
+
+    .header-div {
+        
+        
+        
+    }
+}
