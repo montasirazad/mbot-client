@@ -47,21 +47,32 @@
     font-size: 20px;
     text-align: left;
     margin-left: 25px;
+    line-height: 40px;
     margin-bottom: 15px;
 }
 
 .dashboard-links a:hover {
     color: var(--linkHoverColor);
+    background-color: aliceblue;
 }
 
-.dashboard-links .close-btn {
+.close-btn {
     position: absolute;
     top: 15px;
     right: 15px;
     font-size: 30px;
-    margin-left: 50px;
     cursor: pointer;
     color: white;
+   
+    
+
+}
+
+.dashboard-links .close-btn:hover {
+    background-color: var(--linkHoverColor);
+    height: 40px;
+    /* border-radius: 50%; */
+
 }
 
 .header-div .open-btn {
