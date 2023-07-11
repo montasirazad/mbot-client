@@ -13,41 +13,44 @@ const Footer = () => {
         <div>
             <Box
                 component="footer"
-                sx={{
-                    backgroundColor: (theme) =>
-                        theme.palette.mode === "light"
-                            ? theme.palette.grey[200]
-                            : theme.palette.grey[800],
-                    p: 6,
-                }}
+                // sx={{
+                //     backgroundColor: 
+                //     (theme) =>
+                //         theme.palette.mode === "light"
+                //             ? theme.palette.grey[200]
+                //             : theme.palette.grey[800],
+                //     p: 6,
+                // }}
+
+                sx={{backgroundColor:'#0C081E',p: 6,color:'white'}}
             >
                 <Container maxWidth="lg">
                     <Grid container spacing={5}>
                         <Grid item xs={12} sm={4}>
-                            <Typography variant="h6" color="text.primary" gutterBottom>
+                            <Typography variant="h6" color="text.white" gutterBottom>
                                 About Us
                             </Typography>
-                            <Typography variant="body2" color="text.secondary">
+                            <Typography variant="body2" ccolor="text.white">
                                 We are XYZ company, dedicated to providing the best service to our
                                 customers.
                             </Typography>
                         </Grid>
                         <Grid item xs={12} sm={4}>
-                            <Typography variant="h6" color="text.primary" gutterBottom>
+                            <Typography variant="h6" color="text.white" gutterBottom>
                                 Contact Us
                             </Typography>
-                            <Typography variant="body2" color="text.secondary">
-                                123 Main Street, Anytown, USA
+                            <Typography variant="body2" color="text.white">
+                                285, Road 4, Baridhara DOHS, Dhaka 1206, Bangladesh
                             </Typography>
-                            <Typography variant="body2" color="text.secondary">
-                                Email: info@example.com
+                            <Typography variant="body2" color="text.white">
+                                Email: contact@gengenie.io
                             </Typography>
-                            <Typography variant="body2" color="text.secondary">
-                                Phone: +1 234 567 8901
+                            <Typography variant="body2" color="text.white">
+                                Phone: +8809696809087
                             </Typography>
                         </Grid>
                         <Grid item xs={12} sm={4}>
-                            <Typography variant="h6" color="text.primary" gutterBottom>
+                            <Typography variant="h6" color="text.white" gutterBottom>
                                 Follow Us
                             </Typography>
                             <Link href="https://www.facebook.com/" color="inherit">
@@ -65,11 +68,11 @@ const Footer = () => {
                             </Link>
                         </Grid>
                     </Grid>
-                    <Box mt={5}>
-                        <Typography variant="body2" color="text.secondary" align="center">
+                    <Box mt={5} >
+                        <Typography variant="body2" sx={{color:'white'}} align="center">
                             {"Copyright © "}
                             <Link color="inherit" href="https://your-website.com/">
-                                Your Website
+                               genGenie
                             </Link>{" "}
                             {new Date().getFullYear()}
                             {"."}

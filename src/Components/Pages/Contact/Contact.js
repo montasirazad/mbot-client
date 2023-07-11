@@ -49,13 +49,13 @@ const Contact = () => {
                         Contact Us
                     </Typography>
                     <Typography variant="body2" color="text.white">
-                        123 Main Street, Anytown, USA
+                    285, Road 4, Baridhara DOHS, Dhaka 1206, Bangladesh
                     </Typography>
                     <Typography variant="body2" color="text.white">
-                        Email: info@example.com
+                        Email: contact@gengenie.io
                     </Typography>
                     <Typography variant="body2" color="text.white">
-                        Phone: +1 234 567 8901
+                        Phone: +8809696809087
                     </Typography>
                 </Grid>
             </div>

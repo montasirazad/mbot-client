@@ -8,12 +8,12 @@
 .header-div {
     background-color: var(--mainColor);
     color: var(--textColor);
-    /* display: flex;
-    align-items: center;
+    display: flex;
+    align-items: start;
     justify-content: space-between;
     padding: 20px;
     width: 100vw;
-    height: 100px; */
+    height: 100px;
 }
 
 .header-div a {
@@ -41,14 +41,15 @@
     padding-top: 60px;
     width: 100%;
     background-color: white;
-     
+
     border: 1px solid red;
     margin-top: 100px;
 }
 
-.outlet-container{
+.outlet-container {
     border: 1px solid green;
 }
+
 .dashboard-links a {
     display: block;
     text-decoration: none;
@@ -96,18 +97,10 @@
 
 
 
-.menuShow {
 
-    transform: translateX(0px);
-    transition: .7s;
 
-}
+@media only screen and (max-width:800px) {
 
-@media only screen and (max-width:1024px) {
+    .header-div {}
 
-    .header-div {
-        
-        
-        
-    }
 }
