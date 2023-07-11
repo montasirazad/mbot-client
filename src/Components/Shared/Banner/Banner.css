@@ -1,3 +1,12 @@
+:root {
+    --font-color: white;
+    --border-color: white;
+    --button-color: orangered;
+    --button-hover-color: crimson;
+}
+
+
+
 .banner-div {
     padding-top: 100px;
     display: flex;
@@ -48,21 +57,21 @@
 .btn-div button {
 
     color: white;
-    background-color: darkslategray;
+    background-color: var(--button-color);
     border: 1px solid white;
     padding-top: 20px;
     padding-bottom: 20px;
     padding-right: 40px;
     padding-left: 40px;
     margin: 15px;
-    border-radius: 30px;
+    border-radius: 20px;
     font-size: 20px;
 
 }
 
 .btn-div button:hover {
-    background-color: white;
-    color: darkslategray;
+    background-color: var(--button-hover-color);
+    color: var(--font-color);
     border: 1px solid darkslategray;
     cursor: pointer;
 }
@@ -127,7 +136,7 @@
         padding-right: 30px;
         padding-left: 30px;
         margin: 15px;
-        border-radius: 30px;
+        border-radius: 20px;
         font-size: 15px;
 
     }

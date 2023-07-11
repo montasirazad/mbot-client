@@ -7,7 +7,7 @@
 }
 
 .question-container {
-    text-align: center;
+    /* text-align: center; */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -20,8 +20,6 @@
 
 .question-div {
     width: 90%;
-    border: 1px solid white;
-    /* border-radius: 25px; */
     padding: 15px;
 }
 

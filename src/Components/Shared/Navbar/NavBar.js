@@ -17,8 +17,10 @@ const NavBar = () => {
     return (
         <div className='nav-container'>
             <div className='nav-text-div'>
-                <p>Unleash the Power of AI-Powered Content Solutions – Try Now!</p>
-                <button>Learn more</button>
+                <p>Unleash the Power of AI-Powered Content Solutions --</p>
+
+                <Link to='/signup'>Try Now!</Link>
+                {/* <button><Link to='/signup'>Try Now!</Link></button> */}
             </div>
             <header>
                 <img src={genieLogo} alt="" />

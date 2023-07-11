@@ -11,7 +11,7 @@ const WebsiteList = () => {
                 <button className=''> <span>&#43;</span> Add New Website</button>
             </div>
 
-            <div style={{overflow:'hidden', border: '1px solid green', marginTop: '50px' }}>
+            {/* <div style={{overflow:'hidden', border: '1px solid green', marginTop: '50px' }}>
                
                 <table style={{ overflowX: 'auto'}}>
 
@@ -64,7 +64,7 @@ const WebsiteList = () => {
                         </tr>
                     </tbody>
                 </table>
-            </div>
+            </div> */}
         </div>
     );
 };

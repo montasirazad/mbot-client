@@ -1,14 +1,12 @@
 import React from 'react';
-import './HowWillHelp.css';
+import aiPoweredImg from '../../../images/aiPowered.svg';
+import allInOneImg from '../../../images/allInOne.svg';
+import costEffectiveImg from '../../../images/costEffective.svg';
+import customizableImg from '../../../images/customizable.svg';
+import easyUseImg from '../../../images/easyMaintenance.svg';
 import geniePic from '../../../images/genie2.png';
 import timeImg from '../../../images/timeSaving.svg';
-import costEffectiveImg from '../../../images/costEffective.svg';
-import aiPoweredImg from '../../../images/aiPowered.svg';
-import salesImg from '../../../images/sales.svg';
-import easyUseImg from '../../../images/easyMaintenance.svg';
-import customizableImg from '../../../images/customizable.svg';
-import expertiseImg from '../../../images/expertise.svg';
-import allInOneImg from '../../../images/allInOne.svg';
+import './HowWillHelp.css';
 
 
 
@@ -71,17 +69,6 @@ const HowWillHelp = () => {
                 </div>
 
 
-                {/* <div>
-                    <span>
-                        <img src={salesImg} alt="" />
-                        <h5>Increase in sales</h5>
-                    </span>
-                    <br />
-
-                    <p>Nando.ai can be marketed as a tool that can help increase sales by
-                        creating compelling and high-converting copy.
-                        This can be highlighted through testimonials and case studies from satisfied users.</p>
-                </div> */}
 
                 <div>
                     <span>
@@ -109,17 +96,6 @@ const HowWillHelp = () => {
                     </p>
                 </div>
 
-                {/* <div>
-                    <span>
-                        <img src={expertiseImg} alt="" />
-                        <h5>Expertise</h5>
-                    </span>
-                    <br />
-
-                    <p>Nando.ai can be marketed as a tool that provides users with access to the
-                        expertise of professional copywriters, even if they don’t
-                        have any copywriting experience.</p>
-                </div> */}
 
                 <div>
                     <span>

@@ -29,23 +29,27 @@
     line-height: 70px;
     z-index: 1;
 }
+.nav-text-div a{
+    /* text-decoration: none; */
+    color: var(--textColor);
+}
 
 .nav-text-div button {
     margin-left: 10px;
     width: 150px;
     height: 35px;
     background-color: #0C081E;
-    color: white;
+    color: var(--textColor);
     border: 1px solid white;
     border-radius: 30px;
 
 
 }
 
-.nav-text-div button:hover {
+.nav-text-div a:hover {
 
-    background-color: white;
-    color: darkslategray;
+     
+    color: crimson;
     cursor: pointer;
 
 

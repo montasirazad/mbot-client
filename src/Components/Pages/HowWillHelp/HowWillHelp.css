@@ -5,6 +5,7 @@
     column-gap: 25px;
     background-color: #0C081E;
     color: white;
+    margin-top: 100px;
 }
 
 .answer-container {
@@ -20,7 +21,7 @@
     border-radius: 20px;
     color: white;
     background-color: #131e36;
-    text-align: justify;
+    
     /* background: #445d69; */
 
     /* fallback for old browsers */
@@ -47,7 +48,7 @@
     display: flex;
     align-items: center;
     flex-direction: column;
-    text-align: justify;
+    
 
 }
 
