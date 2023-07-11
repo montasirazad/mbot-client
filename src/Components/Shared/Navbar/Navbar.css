@@ -30,8 +30,7 @@
     z-index: 1;
 }
 .nav-text-div a{
-    /* text-decoration: none; */
-    color: var(--textColor);
+    
 }
 
 .nav-text-div button {
@@ -46,10 +45,10 @@
 
 }
 
-.nav-text-div a:hover {
+.nav-text-div button:hover {
 
-     
-    color: crimson;
+    background-color: var(--secondaryColor);
+    color: var(--textColor);
     cursor: pointer;
 
 

@@ -21,7 +21,7 @@
     border-radius: 20px;
     color: white;
     background-color: #131e36;
-    
+    font-size: 15px;
     /* background: #445d69; */
 
     /* fallback for old browsers */
@@ -48,6 +48,8 @@
     display: flex;
     align-items: center;
     flex-direction: column;
+    text-align: left;
+    /* word-spacing: 1px; */
     
 
 }
