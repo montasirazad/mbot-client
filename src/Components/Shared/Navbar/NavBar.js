@@ -3,7 +3,7 @@ import './Navbar.css';
 import MenuIcon from '@mui/icons-material/Menu';
 import ClearIcon from '@mui/icons-material/Clear';
 import { useRef } from 'react';
-import genieLogo from '../../../images/genie_logo.svg'
+import genieLogo from '../../../images/GenGenie.png';
 import { Link } from 'react-router-dom';
 
 const NavBar = () => {
@@ -17,7 +17,7 @@ const NavBar = () => {
     return (
         <div className='nav-container'>
             <div className='nav-text-div'>
-                <p>Unleash the Power of AI-Powered Content Solutions --</p>
+                <p>Unleash the Power of AI-Powered Content Solutions</p>
 
                 {/* <Link to='/signup'>Try Now!</Link> */}
                 <Link to='/signup'>
@@ -27,13 +27,13 @@ const NavBar = () => {
                 </Link>
             </div>
             <header>
-                <img src={genieLogo} alt="" />
+                <img src={genieLogo} style={{width:'250px'}}alt="" />
                 <nav ref={navRef}>
-                    <a href="/#">Home</a>
-                    <a href="/#">My Work</a>
+                    <a href="/#">Coming soon</a>
+                    {/*<a href="/#">My Work</a>
                     <a href="/#">Blog</a>
-                    <a href="/#">About me</a>
-                    <Link to='user/dashboard'>User dashboard</Link>
+                    <a href="/#">About me</a> */}
+                    {/* <Link to='user/dashboard'>User dashboard</Link> */}
                     <button className='nav-btn nav-close-btn' onClick={showNavBar}>
                         <ClearIcon />
                     </button>

@@ -5,7 +5,9 @@ import Link from "@mui/material/Link";
 import Grid from "@mui/material/Grid";
 import { Facebook, Instagram, Twitter } from "@mui/icons-material";
 import { Box } from "@mui/material";
-
+import EmailIcon from '@mui/icons-material/Email';
+import PhoneIcon from '@mui/icons-material/Phone';
+import LinkedInIcon from '@mui/icons-material/LinkedIn';
 
 const Footer = () => {
 
@@ -22,7 +24,7 @@ const Footer = () => {
                 //     p: 6,
                 // }}
 
-                sx={{backgroundColor:'#0C081E',p: 6,color:'white'}}
+                sx={{ backgroundColor: '#0C081E', p: 6, color: 'white' }}
             >
                 <Container maxWidth="lg">
                     <Grid container spacing={5}>
@@ -31,8 +33,7 @@ const Footer = () => {
                                 About Us
                             </Typography>
                             <Typography variant="body2" ccolor="text.white">
-                                We are XYZ company, dedicated to providing the best service to our
-                                customers.
+                                Gen Genie is a software powered by AI that automates copywriting for entrepreneurs, bloggers, corporate employees and small business owners.
                             </Typography>
                         </Grid>
                         <Grid item xs={12} sm={4}>
@@ -40,20 +41,27 @@ const Footer = () => {
                                 Contact Us
                             </Typography>
                             <Typography variant="body2" color="text.white">
-                                285, Road 4, Baridhara DOHS, Dhaka 1206, Bangladesh
+                                {/* 285, Road 4, Baridhara DOHS, Dhaka 1206, Bangladesh */}
+                                Lytchett House, 13 Freeland Park,Wareham Road,
+                                Poole, Dorset
+                                BH16 6FA
                             </Typography>
                             <Typography variant="body2" color="text.white">
-                                Email: contact@gengenie.io
+                                <EmailIcon sx={{ fontSize: '12px' }} /> contact@gengenie.io
                             </Typography>
                             <Typography variant="body2" color="text.white">
-                                Phone: +8809696809087
+                                {/* Phone: +8809696809087 */}
+                                <PhoneIcon sx={{ fontSize: '12px' }} /> +447576456479
+
                             </Typography>
                         </Grid>
                         <Grid item xs={12} sm={4}>
                             <Typography variant="h6" color="text.white" gutterBottom>
                                 Follow Us
                             </Typography>
-                            <Link href="https://www.facebook.com/" color="inherit">
+                            <Link href="https://www.facebook.com/profile.php?id=100094747294527"
+                                color="inherit"
+                                target='_blank'>
                                 <Facebook />
                             </Link>
                             <Link
@@ -63,16 +71,19 @@ const Footer = () => {
                             >
                                 <Instagram />
                             </Link>
-                            <Link href="https://www.twitter.com/" color="inherit">
-                                <Twitter />
+                            <Link href="https://www.linkedin.com/company/gengenie/"
+                                color="inherit"
+                                target='_blank'
+                            >
+                                <LinkedInIcon />
                             </Link>
                         </Grid>
                     </Grid>
                     <Box mt={5} >
-                        <Typography variant="body2" sx={{color:'white'}} align="center">
+                        <Typography variant="body2" sx={{ color: 'white' }} align="center">
                             {"Copyright © "}
                             <Link color="inherit" href="https://your-website.com/">
-                               genGenie
+                                genGenie
                             </Link>{" "}
                             {new Date().getFullYear()}
                             {"."}

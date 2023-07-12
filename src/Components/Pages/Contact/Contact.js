@@ -13,6 +13,9 @@ import Typography from '@mui/material/Typography';
 import Container from '@mui/material/Container';
 import { createTheme, ThemeProvider } from '@mui/material/styles';
 import { Link } from 'react-router-dom';
+import EmailIcon from '@mui/icons-material/Email';
+import PhoneIcon from '@mui/icons-material/Phone';
+
 
 function Copyright(props) {
     return (
@@ -49,83 +52,33 @@ const Contact = () => {
                         Contact Us
                     </Typography>
                     <Typography variant="body2" color="text.white">
-                    285, Road 4, Baridhara DOHS, Dhaka 1206, Bangladesh
+                        {/* 285, Road 4, Baridhara DOHS, Dhaka 1206, Bangladesh */}
+                        Lytchett House, 13 Freeland Park,Wareham Road,
+                        Poole, Dorset
+                        BH16 6FA
+                    </Typography>
+
+                    <Typography variant="body2" color="text.white">
+                        <EmailIcon sx={{ fontSize: '12px' }} /> contact@gengenie.io
                     </Typography>
                     <Typography variant="body2" color="text.white">
-                        Email: contact@gengenie.io
-                    </Typography>
-                    <Typography variant="body2" color="text.white">
-                        Phone: +8809696809087
+                        {/* Phone: +8809696809087 */}
+                        <PhoneIcon sx={{ fontSize: '12px' }} /> +447576456479
+
                     </Typography>
                 </Grid>
             </div>
             <div className='form-div'>
-                <ThemeProvider theme={defaultTheme} >
-                    <Container component="main" maxWidth="xs">
-                        <CssBaseline />
-                        <Box
-                            sx={{
-                                marginTop: 8,
-                                display: 'flex',
-                                flexDirection: 'column',
-                                alignItems: 'center',
-                            }}
-                        >
-                            
-                            <Typography component="h1" variant="h5" color="text.white">
-                                Log in
-                            </Typography>
-                            <Box component="form" onSubmit={handleSubmit} noValidate sx={{ mt: 1 }}>
-                                <TextField
-                                    margin="normal"
-                                    required
-                                    fullWidth
-                                    id="email"
-                                    label="Email Address"
-                                    name="email"
-                                    autoComplete="email"
-                                    
-                                />
-                                <TextField
-                                    margin="normal"
-                                    required
-                                    fullWidth
-                                    name="password"
-                                    label="Password"
-                                    type="password"
-                                    id="password"
-                                    autoComplete="current-password"
-                                    
-                                />
-                                {/* <FormControlLabel
-                            control={<Checkbox value="remember" color="primary" />}
-                            label="Remember me"
-                        /> */}
-                                <Button
-                                    type="submit"
-                                    fullWidth
-                                    variant="contained"
-                                    sx={{ mt: 3, mb: 2 }}
-                                >
-                                    Sign In
-                                </Button>
-                                <Grid container>
-                                    <Grid item xs>
-                                        <Link href="#" variant="body2" color="text.white">
-                                            Forgot password?
-                                        </Link>
-                                    </Grid>
-                                    <Grid item>
-                                        <Link to='/signup' variant="body2" color="text.white">
-                                            Don't have an account? Sign Up
-                                        </Link>
-                                    </Grid>
-                                </Grid>
-                            </Box>
-                        </Box>
-                        <Copyright sx={{ mt: 8, mb: 4 }} />
-                    </Container>
-                </ThemeProvider>
+                <h4>Keep in touch</h4>
+                <form >
+
+                     
+                    <input type="email" name="" id="" placeholder='Your E-mail'/>
+                    <textarea name="" id="" cols="30" rows="10" placeholder='your message'></textarea>
+                    <button type="submit">Submit</button>
+
+                </form>
+
             </div>
         </div>
     );

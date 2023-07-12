@@ -14,9 +14,10 @@ const Pricing = () => {
                     <h1>Essential</h1>
                     <br /><br />
                     <p>The perfect plan for getting started and experience
-                        all the amazing features Nando AI has to offer.</p>
+                        all the amazing features genGenie has to offer.</p>
                     <br /><br />
-                    <h2>$47/Month</h2>
+
+                    {/* <h2>$47/Month</h2>
                     <br /> <br />
                     <table>
 
@@ -48,21 +49,22 @@ const Pricing = () => {
                         </tbody>
 
 
-                    </table>
+                    </table> */}
 
 
 
 
-                    <button>Try 5 days free trial</button>
+                    <button>Service is coming soon</button>
                 </div>
 
                 <div className='plus-div'>
                     <h1>Plus</h1>
                     <br /><br />
                     <p>The perfect plan for getting started and experience
-                        all the amazing features Nando AI has to offer.</p>
+                        all the amazing features genGenie has to offer.</p>
                     <br /><br />
-                    <h2>$47/Month</h2> <br /> <br />
+
+                    {/* <h2>$47/Month</h2> <br /> <br />
                     <table>
 
                         <tbody>
@@ -93,20 +95,20 @@ const Pricing = () => {
                         </tbody>
 
 
-                    </table>
+                    </table> */}
 
 
 
 
-                    <button>Try 5 days free trial</button>
+                    <button>Service is coming soon</button>
                 </div>
                 <div className='professional-div'>
                     <h1>Professional</h1>
                     <br /><br />
-                    <p>The perfect plan for getting started and experience
-                        all the amazing features Nando AI has to offer.</p>
+                     <p>The perfect plan for getting started and experience
+                        all the amazing features genGenie has to offer.</p>
                     <br /><br />
-                    <h2>$47/Month</h2>
+                   {/* <h2>$47/Month</h2>
                     <br /> <br />
                     <table>
 
@@ -138,12 +140,12 @@ const Pricing = () => {
                         </tbody>
 
 
-                    </table>
+                    </table> */}
 
 
 
 
-                    <button>Try 5 days free trial</button>
+                    <button>Service is coming soon</button>
                 </div>
 
             </div>
