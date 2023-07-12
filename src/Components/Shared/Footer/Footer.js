@@ -67,6 +67,7 @@ const Footer = () => {
                             <Link
                                 href="https://www.instagram.com/"
                                 color="inherit"
+                                target='_blank'
                                 sx={{ pl: 1, pr: 1 }}
                             >
                                 <Instagram />
