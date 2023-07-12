@@ -10,15 +10,15 @@
     align-items: center;
     justify-content: center;
     text-align: justify;
-    background-color: #0C081E;
+    background-color: #131e36;
     color: white;
     font-size: larger;
 
 }
 
 .form-div {
-    background-color: #053574;
-    background-image: linear-gradient(to right, #053574, #09522d);
+    background-color: #131e36;
+    /* background-image: linear-gradient(to right, #053574, #09522d); */
     color: white;
     text-align: center;
     padding: 15px;
