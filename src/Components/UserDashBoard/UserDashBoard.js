@@ -19,13 +19,14 @@ const UserDashBoard = () => {
         {/* <button >menu</button> */}
         <h1>Genegenie</h1>
       </div>
+
       <div className={toggle ? 'dashboard-container' : 'toggle-container'}>
         <div className={toggle ? 'dashboard-menu' : 'hide-menu'}>
 
-          <h1 >menu</h1>
+          <h1>menu</h1>
           <Link to='/'>Home</Link>
-          <Link to='#'>option 1</Link>
-          <Link to='#'>option 2</Link>
+          <Link to='/user/dashboard'>New post</Link>
+          <Link to='/user/dashboard/website-list'>Website List</Link>
           <Link to='#'>option 3</Link>
           <Link to='#'>option 4</Link>
         </div>

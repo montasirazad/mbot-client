@@ -33,7 +33,7 @@ const NavBar = () => {
                     {/*<a href="/#">My Work</a>
                     <a href="/#">Blog</a>
                     <a href="/#">About me</a> */}
-                    {/* <Link to='user/dashboard'>User dashboard</Link> */}
+                    <Link to='user/dashboard'>User dashboard</Link>
                     <button className='nav-btn nav-close-btn' onClick={showNavBar}>
                         <ClearIcon />
                     </button>

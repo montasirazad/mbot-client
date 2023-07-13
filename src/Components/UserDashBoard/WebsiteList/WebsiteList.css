@@ -1,10 +1,10 @@
 .website-list-container {
-    width: 100%;
-    height: auto;
-    border: 1px solid red;
-    padding: 10px;
-    overflow-x: hidden;
-    
+    height: 100vh;
+    /* border: 1px solid red; */
+    padding-top: 30px;
+    padding-left: 100px;
+
+
 }
 
 .website-list-container button {
@@ -19,11 +19,15 @@
 }
 
 
-/* table {
+table {
     font-family: arial, sans-serif;
     border-collapse: collapse;
-    margin-top: 40px;
-     
+    margin-top: 10px;
+    /* margin-left: 50px; */
+    /* border: 1px solid blue; */
+
+
+
 }
 
 td,
@@ -35,10 +39,14 @@ th {
 
 tr:nth-child(even) {
     background-color: #dddddd;
-} */
+}
 
 
-@media only screen and (max-width:1024px) {
-
+@media only screen and (max-width:800px) {
+    .website-list-container {
+        height: 100vh;
+        padding: 10px;
     
+    
+    }
 }
