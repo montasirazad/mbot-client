@@ -51,7 +51,7 @@
     color: var(--textColor);
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    /* justify-content: space-between; */
     height: 80px;
     padding: 10px;
     border-bottom: 1px solid grey;

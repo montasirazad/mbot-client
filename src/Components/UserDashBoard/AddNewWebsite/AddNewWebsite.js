@@ -5,11 +5,12 @@ import './AddNewWebsite.css';
 const AddNewWebsite = () => {
 
     const handleSubmit = (e) => {
+        console.log('hello');
         e.preventDefault()
     }
 
     return (
-        <div>
+        <div className='add-website-container'>
             Add new website
             <form onSubmit={handleSubmit}>
                 <label htmlFor="">Site title</label> <br />
@@ -22,7 +23,7 @@ const AddNewWebsite = () => {
                 <br />
                 <label htmlFor="">Wordpress password</label> <br />
                 <input type="password" name="" placeholder='Wordpress password' /> <br /> <br />
-                <button>Verify and add website</button>
+                <button type='submit' className='add-btn'>Verify and add website</button>
             </form>
         </div>
     );

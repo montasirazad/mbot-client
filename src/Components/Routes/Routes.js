@@ -7,6 +7,8 @@ import UserDashBoard from "../UserDashBoard/UserDashBoard";
 import NewPost from "../UserDashBoard/NewPost/NewPost";
 import WebsiteList from "../UserDashBoard/WebsiteList/WebsiteList";
 import AddNewWebsite from "../UserDashBoard/AddNewWebsite/AddNewWebsite";
+import EditWebsiteSetting from "../UserDashBoard/EditWebsiteSettings/EditWebsiteSetting";
+import ManualPublish from "../UserDashBoard/ManualPublish/ManualPublish";
 
 const router = createBrowserRouter([
     {
@@ -34,9 +36,17 @@ const router = createBrowserRouter([
         }, {
             path: '/user/dashboard/new-post',
             element: <NewPost />
-        }, {
+        },
+        {
+            path: '/user/dashboard/manual-publish',
+            element: <ManualPublish />
+        },
+        {
             path: '/user/dashboard/add-new-website',
             element: <AddNewWebsite />
+        }, {
+            path: '/user/dashboard/edit-website-setting',
+            element: <EditWebsiteSetting />
         }
         ]
     }

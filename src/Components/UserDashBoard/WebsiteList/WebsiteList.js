@@ -14,7 +14,7 @@ const WebsiteList = () => {
                 </Link>
             </div>
 
-            <div style={{ overflowX: 'auto' }}>
+            <div style={{ overflowX: 'auto',overflowY:'auto' }}>
                 <table >
 
                     <thead>
@@ -40,7 +40,9 @@ const WebsiteList = () => {
                             <td>draft</td>
                             <td>1</td>
                             <td>{new Date().toLocaleDateString()}</td>
-                            <td><button>Edit</button></td>
+                            <td>
+                                <Link to='/user/dashboard/edit-website-setting'><button>Edit</button></Link>
+                            </td>
                         </tr>
                         <tr>
                             <td>example2.com</td>
@@ -51,7 +53,9 @@ const WebsiteList = () => {
                             <td>draft</td>
                             <td>1</td>
                             <td>{new Date().toLocaleDateString()}</td>
-                            <td><button>Edit</button></td>
+                            <td>
+                                <Link to='/user/dashboard/edit-website-setting'><button>Edit</button></Link>
+                            </td>
                         </tr>
                         <tr>
                             <td>example3.com</td>
@@ -62,7 +66,9 @@ const WebsiteList = () => {
                             <td>draft</td>
                             <td>1</td>
                             <td>{new Date().toLocaleDateString()}</td>
-                            <td><button>Edit</button></td>
+                            <td>
+                                <Link to='/user/dashboard/edit-website-setting'><button>Edit</button></Link>
+                            </td>
                         </tr>
                     </tbody>
                 </table>

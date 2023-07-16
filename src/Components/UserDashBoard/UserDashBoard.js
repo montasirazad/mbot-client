@@ -1,19 +1,17 @@
+import { MenuSharp } from '@mui/icons-material';
+import ArrowDropDownIcon from '@mui/icons-material/ArrowDropDown';
+import ArrowDropUpIcon from '@mui/icons-material/ArrowDropUp';
+import HomeIcon from '@mui/icons-material/Home';
 import React, { useState } from 'react';
 import { Link, Outlet } from 'react-router-dom';
-import './UserDashBoard.css'
-import { HomeMaxTwoTone, MenuSharp } from '@mui/icons-material'
-import ArrowDropUpIcon from '@mui/icons-material/ArrowDropUp';
-import ArrowDropDownIcon from '@mui/icons-material/ArrowDropDown';
-import HomeMini from '@mui/icons-material/HomeMini';
-import Icon from '@mui/material/Icon';
-import HomeIcon from '@mui/icons-material/Home';
-
+import './UserDashBoard.css';
+import genGenieLogo from '../../images/GenGenie.png';
 
 const UserDashBoard = () => {
 
   const [toggle, setToggle] = useState(true);
-  const [subMenuToggleOne, setSubMenuToggleOne] = useState(false);
-  const [subMenuToggleTwo, setSubMenuToggleTwo] = useState(false);
+  const [subMenuToggleOne, setSubMenuToggleOne] = useState(false); //Info article Sub menu state
+  const [subMenuToggleTwo, setSubMenuToggleTwo] = useState(false); //Setting Sub menu state
 
   const menuToggle = () => {
     setToggle(!toggle)
@@ -31,18 +29,15 @@ const UserDashBoard = () => {
       <div className="top-nav">
 
         <MenuSharp onClick={menuToggle} className='menu-btn' />
-        {/* <button >menu</button> */}
-        <h1>Genegenie</h1>
+
+        <Link to='/'>
+          <img src={genGenieLogo} alt="" style={{width:'200px',marginLeft:'50px'}}/>
+        </Link>
       </div>
 
       <div className={toggle ? 'dashboard-container' : 'toggle-container'}>
         <div className={toggle ? 'dashboard-menu' : 'hide-menu'}>
-
-          {/* <h1>menu</h1> */}
-          <Link to='/'><HomeIcon /></Link>
           <Link to='/user/dashboard'>Website List</Link>
-          {/* <Link to='/user/dashboard/new-post'>New post</Link> */}
-
 
           <div>
 
@@ -65,11 +60,8 @@ const UserDashBoard = () => {
                   <Link to='/user/dashboard/new-post'>Auto Publish</Link>
 
 
-                  <Link to='#'>Manual Publish</Link>
+                  <Link to='/user/dashboard/manual-publish'>Manual Publish</Link>
 
-
-                  <Link to='#'>option 4
-                  </Link>
                 </div >
                 : null}
           </div>

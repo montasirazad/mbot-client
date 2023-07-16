@@ -1,10 +1,10 @@
-.add-website-container {
+.edit-website-container {
     padding: 20px;
 
 
 }
 
-.add-website-container input {
+.edit-website-container input {
     width: 50%;
     height: 30px;
     margin-bottom: 20px;
@@ -17,10 +17,14 @@
     font-size: 15px;
 }
 
+.edit-website-container select {
+    width: 50%;
+    height: 30px;
+}
 
 @media only screen and (max-width:800px) {
-    .add-website-container input {
+    .edit-website-container input {
         width: 90%;
-         
+
     }
 }
