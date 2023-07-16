@@ -6,6 +6,7 @@ import SignUp from "../Pages/SignUp/SignUp";
 import UserDashBoard from "../UserDashBoard/UserDashBoard";
 import NewPost from "../UserDashBoard/NewPost/NewPost";
 import WebsiteList from "../UserDashBoard/WebsiteList/WebsiteList";
+import AddNewWebsite from "../UserDashBoard/AddNewWebsite/AddNewWebsite";
 
 const router = createBrowserRouter([
     {
@@ -29,12 +30,15 @@ const router = createBrowserRouter([
         element: <UserDashBoard />,
         children: [{
             path: '/user/dashboard',
-            element: <NewPost />
-        },
-        {
-            path: '/user/dashboard/website-list',
             element: <WebsiteList />
-        }]
+        }, {
+            path: '/user/dashboard/new-post',
+            element: <NewPost />
+        }, {
+            path: '/user/dashboard/add-new-website',
+            element: <AddNewWebsite />
+        }
+        ]
     }
 ])
 

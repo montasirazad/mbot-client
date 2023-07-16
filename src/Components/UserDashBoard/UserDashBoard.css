@@ -8,9 +8,10 @@
 .dashboard-container {
     /* margin-top: 10px; */
     display: grid;
-    grid-template-columns: 20% auto;
+    grid-template-columns: 10% auto;
     height: 100vh;
     transition: .7s;
+    
 
 }
 
@@ -22,6 +23,9 @@
     /* border: 1px solid yellow; */
     background-color: var(--mainColor);
     color: var(--textColor);
+     
+    
+
 
 }
 
@@ -31,7 +35,7 @@
     color: white;
     padding-top: 20px;
     padding-bottom: 20px;
-    border-top: 1px solid gray;
+    /* border-top: 1px solid gray; */
     /* border-bottom: 1px solid gray; */
 }
 
@@ -59,7 +63,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-
+     
 }
 
 .menu-btn {
@@ -78,8 +82,18 @@
     transition: .7s;
 }
 
+.sub-menu {
 
-
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.sub-menu:hover{
+    cursor: pointer;
+    background-color: darkcyan;
+}
 @media only screen and (max-width:800px) {
     .top-nav {
         width: auto;
@@ -89,6 +103,15 @@
         justify-content: space-between;
         height: 80px;
         padding: 5px;
+    }
+
+    .dashboard-container {
+        /* margin-top: 10px; */
+        display: grid;
+        grid-template-columns: 30% auto;
+        height: 100vh;
+        transition: .7s;
+
     }
 
     .dashboard-menu {
@@ -105,6 +128,7 @@
     .dashboard-outlet {
         overflow: hidden;
         overflow-x: scroll;
+        overflow-y: scroll;
 
     }
 }

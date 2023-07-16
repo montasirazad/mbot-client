@@ -1,5 +1,6 @@
 import React from 'react';
 import './WebsiteList.css';
+import { Link } from 'react-router-dom';
 
 
 const WebsiteList = () => {
@@ -8,10 +9,12 @@ const WebsiteList = () => {
         <div className='website-list-container'>
             <div >
                 <label>Website list </label>
-                <button className=''> <span>&#43;</span> Add New Website</button>
+                <Link to='/user/dashboard/add-new-website'>
+                    <button className=''> <span>&#43;</span> Add New Website</button>
+                </Link>
             </div>
 
-            <div style={{overflowX:'auto'}}>
+            <div style={{ overflowX: 'auto' }}>
                 <table >
 
                     <thead>
